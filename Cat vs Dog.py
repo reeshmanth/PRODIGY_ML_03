@@ -51,5 +51,6 @@ submission = pd.DataFrame({
     'label': predictions
 })
 
+
 submission.to_csv('Sample Submission.csv', index=False)
 print("Submission file 'submission.csv' created successfully!")
